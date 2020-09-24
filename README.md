@@ -1,6 +1,7 @@
-# SurfCut2
+# SurfCut2 (Beta)
 
-## Updated version of SurfCut (Beta).
+## Updated version of SurfCut.
+https://github.com/sverger/SurfCut
 
 File author(s): Stéphane Verger stephane.verger@slu.se
 
