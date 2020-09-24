@@ -1,3 +1,5 @@
+# SurfCut2
+
 ## Updated version of SurfCut (Beta).
 
 File author(s): Stéphane Verger stephane.verger@slu.se
