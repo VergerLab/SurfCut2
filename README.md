@@ -1,4 +1,4 @@
-## Updated version of SurfCut. Under progress...
+## Updated version of SurfCut (Beta).
 
 File author(s): Stéphane Verger stephane.verger@slu.se
 
