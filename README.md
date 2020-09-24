@@ -1,20 +1,13 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2635737.svg)](https://doi.org/10.5281/zenodo.2635737)
-# SurfCut
-![Alt text](/SurfCutSnapshotjpg.jpg?raw=true)
+## Updated version of SurfCut. Under progress...
+
 File author(s): Stéphane Verger stephane.verger@slu.se
-
-Copyright 2019 INRA - CNRS
-
-Distributed under the Cecill-C License.
-See accompanying file LICENSE.txt or copy at
-http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html
 
 # How to cite
 The publication
 > Erguvan, O., Louveaux, M., Hamant, O., Verger, S. (2019) ImageJ SurfCut: a user-friendly pipeline for high-throughput extraction of cell contours from 3D image stacks. BMC Biology, 17:38. https://doi.org/10.1186/s12915-019-0657-1 
 
 The software
-> Verger Stéphane. (2019, April 10). sverger/SurfCut: SurfCut (Version v1.1.0). Zenodo. http://doi.org/10.5281/zenodo.2635737
+
 
 The data
 > Erguvan Özer, & Verger Stéphane. (2019). Dataset of confocal microscopy stacks from plant samples - ImageJ SurfCut: a user-friendly, high-throughput pipeline for extracting cell contours from 3D confocal stacks [Data set]. Zenodo. http://doi.org/10.5281/zenodo.2577053
@@ -32,12 +25,12 @@ Note that while SurfCut is easy to use, automatized and overall an efficient way
 
 ## Prerequisites:
 - Fiji (https://fiji.sc).
-- The "SurfCut.ijm" macro file.
+- The "SurfCut2.ijm" macro file.
 - Data: 3D confocal stacks in .tif format, in which the top of the stack should also be the top of the sample. Example files are available in the /test_File folder as well as on the Zenodo data repository https://doi.org/10.5281/zenodo.2577053
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2577053.svg)](https://doi.org/10.5281/zenodo.2577053)
 
 ## Install/run:
-1) Download the "SurfCut.ijm" macro file somewhere on your computer (You can put it in the Fiji "macros" folder for example)
+1) Download the "SurfCut2.ijm" macro file somewhere on your computer (You can put it in the Fiji "macros" folder for example)
 2) Start Fiji.
 3) In Fiji, run the macro: Plugins>Macros>Run…, and then select the “SurfCut.ijm” file.
 4) Then follow the instructions step by step. You can also follow the step by step user guide (https://github.com/sverger/SurfCut/blob/master/SurfCut_UserGuide.pdf)
