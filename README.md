@@ -2,7 +2,7 @@
 
 File author(s): Stéphane Verger stephane.verger@slu.se
 
-## Updated version of SurfCut.
+Updated version of SurfCut.
 https://github.com/sverger/SurfCut
 
 ## Why SurfCut2?
@@ -18,7 +18,8 @@ https://github.com/sverger/SurfCut
 - Stack of cuts: In the calibrate mode, you can select this mode to generat a series of cropping of the signal a successive depths. You can then easily see which depth parameters are the most adapted by looking through the newly generated "stack of cuts" or simply save and use this new stack containing a virtually flattened version of the original signal.
 
 ## What esle is changed?
-- Many of the bugs were related to the treamtent of the image and processes with values in micron. This is now gone, and everything is treated as voxels or slices. This mainly affect the depth value used to cropp the stack.
+- Many of the bugs were related to the treamtent of the image and processes with values in micron. This is now gone, and everything is treated as voxels or slices. This mainly affect the depth value used to crop the stack.
+- At the end of the "calibrate" mode, you can now save any of the output, and still go back to the previous step (Cropping parameters selection). This allow to save the setting and image for a first cropping depth, then go back and try a different depth, without having to restart the process from the begining. This is useful when you need to extract two different part of the stack.
 
 
 
