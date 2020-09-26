@@ -46,13 +46,13 @@ Note that while SurfCut is easy to use, automatized and overall an efficient way
 ## Prerequisites:
 - Fiji (https://fiji.sc).
 - The "SurfCut2.ijm" macro file.
-- Data: 3D confocal stacks in .tif format, in which the top of the stack should also be the top of the sample. Example files are available in the /test_File folder as well as on the Zenodo data repository https://doi.org/10.5281/zenodo.2577053
+- Data: 3D confocal stacks in .tif format, in which the top of the stack should also be the top of the sample. Single channel images, and in the case of 2 channel process (detect surface with one channel and crop a second channel), channels must be splited and have a distinctive suffix like C=0 or C=1. Example files are available in the /test_File folder as well as on the Zenodo data repository https://doi.org/10.5281/zenodo.2577053
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2577053.svg)](https://doi.org/10.5281/zenodo.2577053)
 
 ## Install/run:
 1) Download the "SurfCut2.ijm" macro file somewhere on your computer (You can put it in the Fiji "macros" folder for example)
 2) Start Fiji.
-3) In Fiji, run the macro: Plugins>Macros>Run…, and then select the “SurfCut.ijm” file.
+3) In Fiji, run the macro: Plugins>Macros>Run…, and then select the “SurfCut2.ijm” file.
 4) Then follow the instructions step by step. You can also follow the step by step user guide (https://github.com/sverger/SurfCut/blob/master/SurfCut_UserGuide.pdf)
 
 ## Output:
