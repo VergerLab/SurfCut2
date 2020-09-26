@@ -6,9 +6,8 @@ Updated version of SurfCut.
 https://github.com/sverger/SurfCut
 
 ## Why SurfCut2?
-- The code has beem completely re-written to make it more stable, robust and re-usable.
+- The code has been completely re-written to fix bugs, make it more robust and re-usable.
 - Most processes have been refactored into user-defined functions.
-- Fixes previously reported bugs.
 - New features have been added!
 
 ## New features
