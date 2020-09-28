@@ -21,6 +21,8 @@ https://github.com/sverger/SurfCut
 - At the end of the "calibrate" mode, you can now save any of the output, and still go back to the previous step (Cropping parameters selection). This allow to save the setting and image for a first cropping depth, then go back and try a different depth, without having to restart the process from the begining. This is useful when you need to extract two different part of the stack.
 
 
+The userguide will be updated.
+
 
 # How to cite
 The publication
