@@ -12,7 +12,7 @@ https://github.com/sverger/SurfCut
 
 ## New features
 - Two channels: Detect the surface with one channel (e.g. membrane), crop the signal of a second channel (e.g. Microtubules, nucleus,...).
-- Erode: erode the mask of the detected surface insted of Z-axis shift. This allows to crop the signal perpandicular to the surface rather than simply shifting in Z.
+- Erode: erode the mask of the detected surface instead of Z-axis shift. This allows to crop the signal perpandicular to the surface rather than simply shifting down in Z.
 - Auto threshold: You can use an automatic thresholding method (e.g. Ostu, Huang,...) instead of manually choosing a fixed threshold for surface detection.
 - Stack of cuts: In the calibrate mode, you can select this mode to generat a series of cropping of the signal a successive depths. You can then easily see which depth parameters are the most adapted by looking through the newly generated "stack of cuts" or simply save and use this new stack containing a virtually flattened version of the original signal.
 
