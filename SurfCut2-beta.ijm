@@ -6,9 +6,9 @@ macro_name = "SurfCut2.0";
 ///====================Description=====================///
 /*This macro allows the extraction of a layer of signal
  * in a 3D stack at a distance from the surface of the 
- * object in the stack (see ...)
+ * object in the stack (see doi.org/10.1186/s12915-019-0657-1)
  * This is an update and full reimplementation of the
- * original SurfCut Macro, (https://github.com/sverger/SurfCut
+ * original SurfCut Macro, (https://github.com/sverger/SurfCut)
  * with some added functionalities, bug correction and 
  * refactoring of the code.
 */
