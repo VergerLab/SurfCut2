@@ -5,6 +5,9 @@ File author(s): Stéphane Verger stephane.verger@slu.se
 Updated version of SurfCut.
 https://github.com/sverger/SurfCut
 
+You can try a lite version of SurfCut with a test image following this link:
+https://tinyurl.com/y5rn7kou
+
 ## Why SurfCut2?
 - The code has been completely re-written to fix bugs, make it more robust and re-usable.
 - Most processes have been refactored into user-defined functions.
