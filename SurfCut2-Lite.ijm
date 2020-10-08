@@ -78,12 +78,12 @@ print("===== Done =====");
 function Dia_BatchSurfCut_Parameters(){
 	Dialog.create("SurfCut Parameters");
 	Dialog.addMessage("1) Choose Gaussian blur radius");
-	Dialog.addNumber("Radius\t", Rad);
+	Dialog.addNumber("Radius\t", 3);
 	Dialog.addMessage("2) Choose an intensity threshold\nfor surface detection\n(Between 0 and 255)");
-	Dialog.addNumber("Threshold\t", Thld);
+	Dialog.addNumber("Threshold\t", 80);
 	Dialog.addMessage("3) Cutting depth parameters");
-	Dialog.addNumber("Top\t", Cut1);
-	Dialog.addNumber("Bottom\t", Cut2);
+	Dialog.addNumber("Top\t", 17);
+	Dialog.addNumber("Bottom\t", 18);
 	Dialog.show();
 	Rad = Dialog.getNumber();
 	Thld = Dialog.getNumber();
