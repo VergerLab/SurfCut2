@@ -82,8 +82,8 @@ function Dia_BatchSurfCut_Parameters(){
 	Dialog.addMessage("2) Choose an intensity threshold\nfor surface detection\n(Between 0 and 255)");
 	Dialog.addNumber("Threshold\t", 80);
 	Dialog.addMessage("3) Cutting depth parameters");
-	Dialog.addNumber("Top\t", 17);
-	Dialog.addNumber("Bottom\t", 18);
+	Dialog.addNumber("Top\t", 10);
+	Dialog.addNumber("Bottom\t", 11);
 	Dialog.show();
 	Rad = Dialog.getNumber();
 	Thld = Dialog.getNumber();
