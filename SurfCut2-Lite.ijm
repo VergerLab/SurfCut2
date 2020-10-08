@@ -9,7 +9,7 @@ macro_name = "SurfCut2Lite";
  * object in the stack (see doi.org/10.1186/s12915-019-0657-1)
  * This is a light version of SurfCut (https://github.com/sverger/SurfCut) 
  * meant to be run on the web browser based version of 
- * imageJ (https://ij.imjoy.io/.
+ * imageJ (https://ij.imjoy.io/).
  * 
  * To run, first open a stack, then run the macro.
 */
@@ -65,6 +65,7 @@ OriginalZProjections(); //Z-project the original image to compare with SurfCut o
 close("Mask-0-invert");
 close("Mask-0");
 setBatchMode("exit and display");
+run("Tile");
 
 ///====End=============================================///
 print("===== Done =====");
