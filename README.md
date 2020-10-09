@@ -19,7 +19,7 @@ https://tinyurl.com/y5rn7kou
 - Auto threshold: You can use an automatic thresholding method (e.g. Ostu, Huang,...) instead of manually choosing a fixed threshold for surface detection.
 - Stack of cuts: In the calibrate mode, you can select this mode to generat a series of cropping of the signal a successive depths. You can then easily see which depth parameters are the most adapted by looking through the newly generated "stack of cuts" or simply save and use this new stack containing a virtually flattened version of the original signal.
 
-## What esle is changed?
+## What else is changed?
 - Many of the bugs were related to the treamtent of the image and processes with values in micron. This is now gone, and everything is treated as voxels or slices. This mainly affect the depth value used to crop the stack.
 - At the end of the "calibrate" mode, you can now save any of the output, and still go back to the previous step (Cropping parameters selection). This allow to save the setting and image for a first cropping depth, then go back and try a different depth, without having to restart the process from the begining. This is useful when you need to extract two different part of the stack.
 
