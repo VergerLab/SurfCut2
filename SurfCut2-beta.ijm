@@ -14,9 +14,6 @@ macro_name = "SurfCut2.0";
 */
 macro_source = "https://github.com/VergerLab/SurfCut2";
 
-///====Action Tool Icon================================///
-macro "SurfCut2 Action Tool - C000 T0e10S T6e10C Tee102" {
-
 ///====================================================///
 ///=====Global variables===============================///
 ///====================================================///
@@ -745,5 +742,4 @@ function OriginalZProjections(){
 	selectWindow(imgName);
 	run("Z Project...", "projection=[Max Intensity]");
 	rename("OriginalProjection_" + imgName);
-};
 };
