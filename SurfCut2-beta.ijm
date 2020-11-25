@@ -143,7 +143,6 @@ if (Mode=="Calibrate"){
 			//Directly generate a single Surfcut output with the input parameters
 			Cutting(Cut1, Cut2); //Creates layer mask, crop target signal and Z-project the SurfCut output
 			OriginalZProjections(); //Z-project the original image to compare with SurfCut output
-			run("Tile");
 			Dia_Cutting_Satisfied(); //Dialog to validate quality of the output or return to parameters selection
 			SaveOutputAndClose(); //Save and close the different outputs of the process
 		};
