@@ -251,8 +251,8 @@ function Dia_SurfCut_More(){
 
 function Dia_SurfaceDetection_Parameters(){
 	Dialog.create("SurfCut Parameters");
-	Dialog.addMessage("1) Choose Gaussian blur radius");
-	Dialog.addNumber("Radius\t", 3);
+	Dialog.addMessage("1) Choose Gaussian blur radius (e.g. 3");
+	Dialog.addNumber("Radius\t", Rad);
 	Dialog.addCheckbox("2) Automatic  Threshold", AutoThld);
 	Dialog.addMessage("Define Automatic thresholding");
 	Dialog.addChoice("method", newArray("Default", "Huang", "Otsu", "Intermodes", "IsoData", "Li", "None"), AutoThldType);
@@ -391,6 +391,7 @@ function Dia_StackOfCuts_Satisfied(){
 
 function Dia_Cutting_Satisfied(){
 	setBatchMode("exit and display");
+	waitForUser("Check output", "Check the SurfCut output stack and projection.");
 	Dialog.create("Satisfied with the output?");
 	Dialog.addCheckbox("Satisfied?", false);
 	Dialog.addMessage("");
